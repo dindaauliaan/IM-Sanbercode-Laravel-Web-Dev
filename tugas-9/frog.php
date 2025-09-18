@@ -8,12 +8,11 @@
 <body>
     <?php
         require_once('animal.php');
-        class Ape extends Animal{
-            public $legs = 2;
-            public function yell(){
-                return "Auooo";
+        class Frog extends Animal{
+            public function jump(){
+                return "hop hop";
             }
         }
-    ?> 
+    ?>
 </body>
 </html>
